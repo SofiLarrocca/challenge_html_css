@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT-AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+
+    <!-- TÍTULO -->
+    <title>Consultora Empresarial</title>
+</head>
+
+<body>
+    <header>
+        <div class="link-redes">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
+
+        <nav>
+            <div>
+                <h1>Consultora Empresarial</h1>
+                <h2>Estrategia y competitividad empresarial</h2>
+            </div>
+            <div>
+                <i id="menu" class="fa-solid fa-bars none"></i>
+                <div id="menu-container" class="none">
+                    <div class="menu-link">
+                        <a href="index.html">home</a> 
+                        <a href="blog.html">blog</a> 
+                        <a href="contacto.html">contacto</a> 
+                    </div>
+                </div>
+            </div>
+            <div class="link-nav">
+                <a href="index.html">home</a> 
+                <a href="blog.html">blog</a> 
+                <a href="contacto.html">contacto</a> 
+            </div>
+        </nav>
+    
+        <div class="header">
+            <h2>estrategia y competitividad <span>empresarial</span></h2>
+        </div>
+    </header>
+
+    <section class="formulario-contacto">
+        <div class="formulario-container">
+            <div>
+                <div>
+                    <h3>Rellená nuestro formulario de contacto</h3>
+                    <p>TE RESPONDEREMOS EN MENOS DE 24 HORAS LABORALES</p>
+                </div>
+                    <form>       
+                        <p>
+                            <label for="nombre">Tu Nombre</label>
+                            <input type="text" id="nombre" required="obligatorio">
+                        </p>
+                        <p>
+                            <label for="email">Tu correo electrónico</label>
+                            <input type="email" id="email" required="obligatorio">
+                        </p>
+                        <p>
+                            <label for="telefone">Asunto
+                            </label>
+                            <input type="text" id="telefono">
+                        </p>    
+                        <p>
+                            <label for="mensaje" class="colocar_mensaje">Tu mensaje (opcional)</label>  
+
+                            <textarea name="introducir_mensaje" id="mensaje" required="obligatorio" height="10px"></textarea> 
+                        </p>                    
+                        
+                            <button class="btn" type="submit" name="enviar_formulario" id="enviar">Enviar</button>       
+              
+            </div> 
+                 </form>
+       
+            <div>
+                <h3>¿Cómo podemos ayudarte?</h3>
+                <div class="contacto">
+                <p>Envíanos un mensaje directo a Whatssap haciendo click en el logo</p>
+                    <img src="./img/icon-whatssap.png" alt="" width="60px" height="60px">
+                </div>
+                <div class="contacto--left">
+                    <p>Nuestro equipo está disponible los sieste días de la semana</p>
+                    <p>No dudes en hacernos llegar tus preguntas</p>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+ 
+    <footer>
+        <h3>¿Por qué contratarnos?</h3>
+        <h3>| innovación | tendencias | rapidez | garantía | simplicidad | practicidad</h3>
+        <h4>Estas son algunas de las capacidades que te ofrecemos para lograr el éxito empresarial hoy en día</h4> 
+        <img src="./img/icon-whatssap.png" class="footer-img" alt="" width="50px" height="50px">    </footer>
+
+    <h5 class="container">
+        &copy; 2022 Consultoría Empresarial
+    </h5> 
+
+        <!-- JAVASCRIP -->
+        <script src="menu.js"></script>
+</body>
+</html>
